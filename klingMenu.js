@@ -5,7 +5,7 @@ var text = document.getElementById('opInstructions'), // get the instruction tex
 	op = document.getElementById('op'),
 	instructions = [
 	"For this portion of the task, you will be performing a memory task at the same time as solving math equations.",
-	"A character will appear (ex: F), then a simple math equation (ex: [5/5] + 2 = 3), then another character, and another equation, and so on for anywhere from 3 to 9 cycles.",
+	'A character will appear (ex: <img src = "Klingon/F.png" width = "30">), then a simple math equation (ex: [5/5] + 2 = 3), then another character, and another equation, and so on for anywhere from 3 to 9 cycles.',
 	"The math equations may be correct or incorrect. When an equation is shown to you, you must respond with either 'A' for correct or 'L' for not.",
 	"Your job is to remember the characters and in which order they appeared, while accurately deciding whether the math equations are correct or not.",
 	"At the end of each set of cycles you will be asked to input in which order the characters appeared. There will be 7 sets of cycles (3 to 9) and you will do this twice for a total of 14 sets.",
