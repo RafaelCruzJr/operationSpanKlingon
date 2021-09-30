@@ -1,5 +1,5 @@
 function runKlingPractice() {
-	var allTrials = [['<img src = "klingon/D.png">','6 / 2 + 5 = 9',0],['<img src = "klingon/K.png">','5 x 3 - 2 = 13',1],['<img src = "klingon/I.png">','4 x 2 + 6 = 18',1],['<img src = "klingon/P.png">','8 / 2 - 3 = 1',1],['<img src = "klingon/H.png">','9 x 2 - 3 = 4',0]], // full set of practice trials
+	var allTrials = [['<img src = "klingon/D.png">','6 / 2 + 5 = 9'],['<img src = "klingon/K.png">','5 x 3 - 2 = 13'],['<img src = "klingon/I.png">','4 x 2 + 6 = 18'],['<img src = "klingon/P.png">','8 / 2 - 3 = 1'],['<img src = "klingon/H.png">','9 x 2 - 3 = 4']], // full set of practice trials
 		timePrompt = Number(opener.document.getElementById("arithAVG").value), // grab average from arithmetic
 		SD = Number(opener.document.getElementById("arithSD").value),// grab SD from arithmetic
 	    	cbAnswer = Number(opener.document.getElementById('cbAnswer').value),
